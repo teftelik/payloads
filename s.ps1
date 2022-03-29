@@ -1,8 +1,8 @@
 # for fun, change wallpaper
 
-$pic_path = \"$env:USERPROFILE\Desktop\w.png\";
+$pic_path = "$env:USERPROFILE\Desktop\w.jpg";
 
-IWR -Uri \"https://i.ytimg.com/vi/l0WokYfyaaQ/hqdefault.jpg\" -OutFile $pic_path;
+IWR -Uri "https://raw.githubusercontent.com/teftelik/payloads/main/w.jpg" -OutFile $pic_path;
 
 $setwallpapersrc = @"
 using System.Runtime.InteropServices;
